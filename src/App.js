@@ -8,11 +8,6 @@ class App extends Component {
         this.state = {};
     }
 
-    something = a => {
-        if (a === 1) return a;
-        return false;
-    };
-
     render() {
         return (
             <div className="App">
