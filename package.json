@@ -20,6 +20,11 @@
       "git add"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
     "eslint": "^5.6.1",
     "eslint-config-airbnb": "^17.1.0",
