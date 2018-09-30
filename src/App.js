@@ -8,6 +8,10 @@ class App extends Component {
     this.state={}
   }
   render() {
+    if(true ) {
+      return null;
+    }
+    
     return (
       <div className="App">
         <header className="App-header">
