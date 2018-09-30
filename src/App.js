@@ -8,32 +8,23 @@ class App extends Component {
     this.state = {};
   }
 
+  something = a => {
+    if (a === 1) return a;
+    return false;
+  };
+
   render() {
     return (
       <div className="App">
-        <p>dsfs</p>
         <header className="App-header">
-          <p />
           <img src={logo} className="App-logo" alt="logo" />
-          <b />
-          <p>
-            <p />
-          </p>
+
           <h1 className="App-title">Welcome to React</h1>
-          <p />
-          <p />
         </header>
-        <sdf /> <i />
+
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <div>123</div>
-        <p>456</p>
-        <div>abc</div>
-        <div>sdgffasdg</div>
-        <p />
-        <p>sdfsd</p>
-        <p />
       </div>
     );
   }
