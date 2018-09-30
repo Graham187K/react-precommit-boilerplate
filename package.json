@@ -17,8 +17,7 @@
   "lint-staged": {
     "*.{js,jsx}": [
       "pretty-quicks",
-      "eslint src/ --fix",
-      "git add"
+      "eslint src/ --fix"
     ]
   },
   "devDependencies": {
