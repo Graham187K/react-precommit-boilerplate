@@ -5,7 +5,7 @@
       "react/jsx-filename-extension": [
         1,
         {
-          "extensions": ["src/**/*.js", "src/**/*.jsx"]
+          "extensions": [".js", ".jsx"]
         }
       ],
       "react/prop-types": 0,
@@ -15,7 +15,6 @@
     },
     "globals": {
       "window": true,
-      "console": true,
       "document": true,
       "localStorage": true,
       "FormData": true,
