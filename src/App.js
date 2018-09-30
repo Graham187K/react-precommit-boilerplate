@@ -7,6 +7,8 @@ class App extends Component {
     super();
     this.state = {};
   }
+
+  
   render() {
     if (true) {
       return null;
@@ -15,7 +17,11 @@ class App extends Component {
     return ( 
       <div className="App"><p>dsfs</p>
         <header className="App-header"><p></p>
-          <img src={logo} className="App-logo" alt="logo" /><b></b>
+          <img src={logo} className="App-logo" alt="logo" /><b></b><p>
+
+
+
+          </p>
           <h1 className="App-title">Welcome to React</h1><p></p><p></p>
         </header><sdf></sdf>
         <p className="App-intro">
