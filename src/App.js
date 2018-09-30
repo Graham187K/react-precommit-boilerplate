@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor(props){
+    super();
+    this.state={}
+  }
+  
   render() {
     return (
       <div className="App">
@@ -16,7 +21,7 @@ class App extends Component {
         <div>123</div>
         <p>456</p>
         <div>abc</div>
-        <div>sdgffasdg</div>
+        <div>sdgffasdg</div><p></p>
         <p>sdfsd</p>
         <p />
       </div>
