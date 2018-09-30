@@ -17,7 +17,9 @@
       "react/prop-types": 0,
       "no-underscore-dangle": 0,
       "import/imports-first": ["error", "absolute-first"],
-      "import/newline-after-import": "error"
+      "import/newline-after-import": "error",
+      "no-use-before-define": ["error", { "functions": false, "classes": false }],
+      "no-param-reassign": 1
     },
     "globals": {
       "window": true,
