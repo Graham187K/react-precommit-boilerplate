@@ -15,7 +15,7 @@ class App extends Component {
     return ( 
       <div className="App"><p>dsfs</p>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" /><b></b>
           <h1 className="App-title">Welcome to React</h1><p></p><p></p>
         </header><sdf></sdf>
         <p className="App-intro">
