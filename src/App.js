@@ -4,26 +4,30 @@ import './App.css';
 
 class App extends Component {
   constructor(props) {
-    super();
+    super(props);
     this.state = {};
   }
-
 
   render() {
     if (true) {
       return null;
     }
 
-    return ( 
-      <div className="App"><p>dsfs</p>
-        <header className="App-header"><p></p>
-          <img src={logo} className="App-logo" alt="logo" /><b></b><p>
-
-
-
+    return (
+      <div className="App">
+        <p>dsfs</p>
+        <header className="App-header">
+          <p />
+          <img src={logo} className="App-logo" alt="logo" />
+          <b />
+          <p>
+            <p />
           </p>
-          <h1 className="App-title">Welcome to React</h1><p></p><p></p>
-        </header><sdf></sdf> <i></i>
+          <h1 className="App-title">Welcome to React</h1>
+          <p />
+          <p />
+        </header>
+        <sdf /> <i />
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
