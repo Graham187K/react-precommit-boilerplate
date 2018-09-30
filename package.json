@@ -21,8 +21,9 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "pretty-quicks",
-      "eslint src/ --fix"
+      "pretty-quick --staged",
+      "eslint src/ --fix",
+      "git add"
     ]
   },
   "devDependencies": {
