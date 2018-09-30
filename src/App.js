@@ -9,10 +9,6 @@ class App extends Component {
   }
 
   render() {
-    if (true) {
-      return null;
-    }
-
     return (
       <div className="App">
         <p>dsfs</p>
