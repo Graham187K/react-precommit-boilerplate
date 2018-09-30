@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super();
-    this.state={}
+    this.state = {};
   }
   render() {
-    if(true ) {
+    if (true) {
       return null;
     }
 
@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1> 
+          <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
@@ -24,7 +24,8 @@ class App extends Component {
         <div>123</div>
         <p>456</p>
         <div>abc</div>
-        <div>sdgffasdg</div><p></p>
+        <div>sdgffasdg</div>
+        <p />
         <p>sdfsd</p>
         <p />
       </div>
