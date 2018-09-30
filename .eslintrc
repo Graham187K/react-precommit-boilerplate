@@ -15,6 +15,7 @@
     },
     "globals": {
       "window": true,
+      "console": true,
       "document": true,
       "localStorage": true,
       "FormData": true,
