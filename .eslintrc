@@ -3,8 +3,8 @@
         "es6": true,
         "browser": true
     },
-    "extends": ["airbnb", "prettier", "prettier/react"],
-    "plugins": ["prettier"],
+    "extends": ["airbnb", "prettier", "prettier/react", "plugin:jest/recommended"],
+    "plugins": ["prettier", "jest"],
     "parser": "babel-eslint",
     "rules": {
       "indent": ["error", 4],
