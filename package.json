@@ -1,5 +1,5 @@
 {
-    "name": "test-app-1",
+    "name": "react-precommit-boilerplate",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
