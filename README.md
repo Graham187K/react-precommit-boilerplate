@@ -8,3 +8,4 @@ Added Husky pre-commit hooks.
 Used as a baseline to start React Projects with standard pre-commit tasks built in.
 
 x
+x
